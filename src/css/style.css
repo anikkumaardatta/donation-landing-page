@@ -50,3 +50,99 @@ header .header_continer .title .h_link{
     align-items: center;
     margin: auto;
 }
+
+
+
+section .section_container{
+    margin: 100px 80px;
+}
+section .section_container .donate_container{
+    width: 900px;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+
+}
+section .section_container .donate_container .title_text{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+    color: #121212;
+
+}
+section .section_container .donate_container .discription{
+    width: 650px;
+    margin: 45px auto;
+    color: #707070;
+
+}
+section .section_container .donate_container .donate_section{
+    
+
+}
+section .section_container .donate_container .donate_section .amount_list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+section .section_container .donate_container .donate_section .amount_list_item{
+    list-style-type: none;
+    border: 2px solid rgba(255, 255, 255, 0);
+    background-color: #ff4c3c00;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    width: 150px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3   0px 0;
+    cursor: pointer;
+    transition:  background-color ease-in .5s ;
+
+
+}
+section .section_container .donate_container .donate_section .amount_list_item:hover{
+    background-color: #ff4c3c15;
+    border: 2px solid #fd6969;
+}
+section .section_container .donate_container .donate_section .amount_list_item:hover a{
+    color: #fd6969;
+}
+section .section_container .donate_container .donate_section .amount_list_item a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section .section_container .donate_container .donate_section input{
+    border: none;
+    border-bottom: 1px solid #afafaf;
+    outline: none;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding: 15px 25px;
+}
+section .section_container .donate_container .donate_section a{
+    text-decoration: none;
+    color: #707070;
+
+}
+section .section_container .donate_container .donate_section .h_link{
+    
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ff4c3c;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba( 0, 0, 0, 0.2);
+    padding: 15px 25px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
