@@ -17,22 +17,24 @@ header .header_continer{
     height: 100%;
 }
 header .header_continer .title{
-    width: 800px;
+    width: 850px;
 
 }
 header .header_continer .title .title_text{
     color: #FFF;
-    font-size: 60px;
+    font-size: 65px;
     text-align: center;
+    font-weight: 500;
     margin-bottom: 20px;
     line-height: 1.4;
 
 }
 header .header_continer .title .discription{
     color: #FFF;
+    font-size: 18px;
     font-weight: 300;
     text-align: center;
-    width: 580px;
+    width: 650px;
     margin: auto;
     margin-bottom: 50px;
 }
@@ -58,7 +60,7 @@ section .section_container{
 }
 section .section_container .donate_container{
     width: 900px;
-    height: 600px;
+    height: auto;
     text-align: center;
     margin: auto;
 
@@ -72,7 +74,7 @@ section .section_container .donate_container .title_text{
 }
 section .section_container .donate_container .discription{
     width: 650px;
-    margin: 45px auto;
+    margin: 0px auto 40px auto;
     color: #707070;
 
 }
@@ -121,9 +123,10 @@ section .section_container .donate_container .donate_section input{
     border-bottom: 1px solid #afafaf;
     outline: none;
     text-align: center;
-    width: 80%;
-    margin-bottom: 40px;
-    font-size: 20px;
+    color: #ff4c3c;
+    width: 90%;
+    margin: 20px 0 40px 0;
+    font-size: 25px;
     padding: 15px 25px;
 }
 section .section_container .donate_container .donate_section a{
@@ -145,4 +148,71 @@ section .section_container .donate_container .donate_section .h_link{
     justify-content: center;
     align-items: center;
     margin: auto;
+    margin-bottom: 80px;
 }
+section .section_container .plane_container{
+    width: 1120px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+section .section_container .plane_container .title_text{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+    color: #121212;
+
+}
+section .section_container .plane_container .discription{
+    width: 650px;
+    margin: 0px auto 40px auto;
+    color: #707070;
+
+}
+
+
+
+
+section .section_container .plane_container .donation_planes{
+    display: flex;
+    justify-content: space-between;
+}
+
+section .section_container .plane_container .donation_planes .donate_plane_cards{
+    display: flex;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+}
+.card1{
+    background-color: #edf5f6;
+}
+.card2{
+    background-color: #ffeeee;
+}
+.card3{
+    background-color: #fff4d6;
+}
+.card1  {
+
+}
+section .section_container .plane_container .donation_planes .card_container{
+    text-align: start;
+    padding: 30px;
+}
+section .section_container .plane_container .donation_planes .card_container img{
+    margin-bottom: 30px;
+}
+section .section_container .plane_container .donation_planes .card_container .card_title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #121212;
+}
+section .section_container .plane_container .donation_planes .card_container .card_discription{
+    text-align: justify;
+    font-size: 15px;
+    color: #707070;
+}
+
+
