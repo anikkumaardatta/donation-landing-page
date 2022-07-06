@@ -78,10 +78,7 @@ section .section_container .donate_container .discription{
     color: #707070;
 
 }
-section .section_container .donate_container .donate_section{
-    
 
-}
 section .section_container .donate_container .donate_section .amount_list{
     margin: 0;
     padding: 0;
@@ -183,7 +180,8 @@ section .section_container .plane_container .donation_planes .donate_plane_cards
     align-items: center;
     height: 350px;
     width: 350px;
-    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 35px rgba( 0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 .card1{
     background-color: #edf5f6;
@@ -193,9 +191,6 @@ section .section_container .plane_container .donation_planes .donate_plane_cards
 }
 .card3{
     background-color: #fff4d6;
-}
-.card1  {
-
 }
 section .section_container .plane_container .donation_planes .card_container{
     text-align: start;
@@ -215,4 +210,114 @@ section .section_container .plane_container .donation_planes .card_container .ca
     color: #707070;
 }
 
+section .section_container .activity_log_container{
+    width: 1120px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+section .section_container .activity_log_container .activity_title_text{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+    color: #121212;
 
+}
+section .section_container .activity_log_container .activity_log{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+
+}
+section .section_container .activity_log_container .activity_log .activity_items{
+    width: 200px;
+    height: 280px;
+    background-image: linear-gradient(to right top, #edf5f6, #edf4f9, #eff3fa, #f4f1fa, #faeff6, #fdeef2, #ffeeee, #ffeee9, #ffeee4, #fff0df, #fff1da, #fff4d6);
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba( 0, 0, 0, 0.2);
+    cursor: pointer;
+
+}
+section .section_container .activity_log_container .activity_log .activity_items img{
+    margin-top: 15px;
+    padding: 20px;background-color: #ff4c3c15;
+    border: 2px solid #fd6969;
+    border-radius: 20px;
+
+
+}
+section .section_container .activity_log_container .activity_log .activity_items .headline{
+    color: #121212;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0;
+
+}section .section_container .activity_log_container .activity_log .activity_items .title{
+    color: #121212;
+
+}
+section .section_container .activity_log_container .link_btn{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ff4c3c;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba( 0, 0, 0, 0.2);
+    padding: 15px 25px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+}
+section .section_container .about_container{
+    width: 1120px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+section .section_container .about_container .more_about{
+    display: flex;
+    justify-content: space-around;
+}
+section .section_container .about_container .more_about .half_width{
+    width: 30vw;
+}
+section .section_container .about_container .more_about .text_area{
+    text-align: start;
+    width: 40vw;
+    margin-left: 35px;
+}
+section .section_container .about_container .more_about .text_area .title{
+    font-size: 45px;
+    font-weight: 600;
+    color: #121212;
+    border-left: 10px solid #ff4c3c;
+    padding-left: 20px;
+}
+section .section_container .about_container .more_about .text_area p{
+    color: #707070;
+}
+section .section_container .about_container .more_about img{
+    width: 30vw;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba( 0, 0, 0, 0.2);
+}
+section .section_container .about_container .more_about .link_btn {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ff4c3c;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba( 0, 0, 0, 0.2);
+    padding: 15px 25px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
