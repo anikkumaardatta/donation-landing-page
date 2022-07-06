@@ -5,8 +5,7 @@ body{
     margin: 0;
 }
 header{
-    /* background-image: url(/donation-landing-page/src/image/donation13.jpg); */
-    background-image: url(/src/image/donation13.jpg);
+    background-image: url(/donation-landing-page/src/image/donation13.jpg);
     background-size: cover;
     height: 700px;
 }
