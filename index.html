@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
@@ -28,7 +31,7 @@
             <div class="donate_container">
                 <h2 class="title_text">Donate Here</h2>
                 <p class="description">
-                    We need your support to spread our services and bring happiness through a cooperation and team work.
+                    Donate those to survive, you can keep your name and identity secret if you want.  Choose the amount of your donation here.
                 </p>
                 <div class="donate_section">
                     <ul class="amount_list">
@@ -40,15 +43,17 @@
                     </ul>
                     <input type="text" placeholder="Other Amount (Taka-৳)">
                     <a class="h_link" href="#">Donate Now</a>
+
+                    
                 </div>
             </div>
             <div class="plane_container">
                 <h2 class="title_text">Our Donate Plane</h2>
                 <p class="description">
-                    We need your support to spread our services and bring happiness through a cooperation and team work.
+                    Learn about our Donate Plane here, basically we have a variety of plans to ensure food, clothing, shelter and education rates.
                 </p>
                 <div class="donation_planes">
-                    <div class="donate_plane_cards card1">
+                    <div class="donate_plane_cards" id="plane_card1">
                         <div class="card_container">
                             <img src="./src/icons/healthy-food.png" height="55px" width="55px" alt="">
                             <div class="card_title">Food for a family</div>
@@ -58,7 +63,7 @@
                         </div>
 
                     </div>
-                    <div class="donate_plane_cards card2">
+                    <div class="donate_plane_cards" id="plane_card2">
                         <div class="card_container">
                             <img src="./src/icons/family.png" height="55px" width="55px" alt="">
                             <div class="card_title">Shelter for a family</div>
@@ -67,7 +72,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="donate_plane_cards card3">
+                    <div class="donate_plane_cards" id="plane_card3">
                         <div class="card_container">
                             <img src="./src/icons/book.png" height="55px" width="55px" alt="">
                             <div class="card_title">Education for a child</div>
@@ -81,35 +86,40 @@
             </div>
             <div class="activity_log_container">
                 <h2 class="activity_title_text">Our Activites</h2>
+                <p class="description">
+                   <span>“</span>
+                        Everyday we dig deeper to provide support when people need it most. We want to support everyone who comes to us for help – but we can’t do it alone. We know the need is there – in fact data from our services shows that demand for food relief is growing.
+                    <span>”</span>  
+                </p>
                 <div class="activity_log">
-                    <div class="activity_items">
-                        <img src="./src/icons/calendar.png" height="80px" width="80px" alt="">
+                    <div class="activity_items" id="activity_card1">
+                        <img src="./src/icons/calendar.png" height="55px" width="55px" alt="">
                         <h2 class="headline">11+</h2>
-                        <p class="title">Years</p>
+                        <p class="title">Years of Journey</p>
                     </div>
-                    <div class="activity_items">
-                        <img src="./src/icons/team.png" height="80px" width="80px" alt="">
+                    <div class="activity_items" id="activity_card2">
+                        <img src="./src/icons/team.png" height="55px" width="55px" alt="">
                         <h2 class="headline">19000+</h2>
-                        <p class="title">Volunteers</p>
+                        <p class="title">Our Volunteers</p>
                     </div>
-                    <div class="activity_items">
-                        <img src="./src/icons/blood-extraction.png" height="80px" width="80px" alt="">
+                    <div class="activity_items" id="activity_card3">
+                        <img src="./src/icons/blood-extraction.png" height="55px" width="55px" alt="">
                         <h2 class="headline">4000+</h2>
                         <p class="title">Blood Doners</p>
                     </div>
-                    <div class="activity_items">
-                        <img src="./src/icons/activity.png" height="80px" width="80px" alt="">
-                        <h2 class="headline">12+</h2>
+                    <div class="activity_items" id="activity_card4">
+                        <img src="./src/icons/activity.png" height="55px" width="55px" alt="">
+                        <h2 class="headline">12</h2>
                         <p class="title">Running Campaigns</p>
                     </div>
-                    <div class="activity_items">
-                        <img src="./src/icons/donate.png" height="80px" width="80px" alt="">
+                    <div class="activity_items" id="activity_card5">
+                        <img src="./src/icons/donate.png" height="55px" width="55px" alt="">
                         <h2 class="headline">৳914k+</h2>
                         <p class="title">Donated through
                         our Giving Basket</p>
                     </div>
                 </div>
-                <a class="link_btn" href="#">Learn more about Sweeten The Pot</a>
+                <a class="h_link" href="#">Learn more about Sweeten The Pot</a>
             </div>
             <div class="about_container">
                 <div class="more_about">
@@ -120,10 +130,18 @@
                             <br>
                             For the past several years our family has agreed that we have enough “things” while there are folks who have so little, who are sick, who fled their homes simply to survive.
                         </p>
-                        <a class="link_btn" href="#">How to Contribute?</a>
+                        <a class="h_link" href="#">How to Contribute?</a>
                     </div>
                     <img src="./src/image/donation8.jpg"  alt="">
                 
+                </div>
+                <div class="peyment_method">
+                    <img src="./src/icons/Visa_Inc.-Logo.wine.svg" height="100px" alt="">
+                    <img src="./src/icons/Mastercard-Logo.wine.svg" height="100px" alt="">
+                    <img src="./src/icons/American_Express-Logo.wine.svg" height="100px" alt="">
+                    <img src="./src/icons/PayPal-Logo.wine.svg" height="100px" alt="">
+                    <img src="./src/icons/BKash-Logo.wine.svg" height="100px" alt="">
+                    <img src="./src/icons/Nagad-Logo.wine.svg" height="100px" alt="">
                 </div>
             </div>
             <div class="contact_section">
@@ -137,7 +155,7 @@
                             <input type="text" placeholder="First Name">
                             <input type="email" placeholder="Email Address">
                         </div>
-                        <a href="#" class="link_btn">Subscribe</a>
+                        <a href="#" class="h_link">Subscribe</a>
                     </div>
                 </div>
 
@@ -155,9 +173,9 @@
                 <ul>
                     <li><a href="#" target="_blank" rel="noopener noreferrer">Facebook</a></li>
                     <li><a href="#" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-                    <li><a href="#" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-                    <li><a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                     <li><a href="#" target="_blank" rel="noopener noreferrer">instagram</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">YouTube</a></li>
                 </ul>
             </div>
             <p>© 2022-2026 || Developed by <a href="https://www.linkedin.com/in/anik-datta-7809a2203/">Anik K. Datta</a></p>

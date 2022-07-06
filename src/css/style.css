@@ -1,12 +1,12 @@
 
 body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
-    overflow-x: hidden;
 }
 header{
-    background-image: url(/donation-landing-page/src/image/donation13.jpg);
+    /* background-image: url(/donation-landing-page/src/image/donation13.jpg); */
+    background-image: url(/src/image/donation13.jpg);
     background-size: cover;
     height: 700px;
 }
@@ -53,6 +53,9 @@ header .header_continer .title .h_link{
     justify-content: center;
     align-items: center;
     margin: auto;
+}header .header_continer .title .h_link:hover{
+    
+    background-color: #E34638;
 }
 
 
@@ -147,6 +150,9 @@ section .section_container .donate_container .donate_section .h_link{
     align-items: center;
     margin: auto;
     margin-bottom: 80px;
+}section .section_container .donate_container .donate_section  .h_link:hover{
+    
+    background-color: #e94a3b;
 }
 section .section_container .plane_container{
     width: 1120px;
@@ -185,13 +191,13 @@ section .section_container .plane_container .donation_planes .donate_plane_cards
     box-shadow: 0 10px 35px rgba( 0, 0, 0, 0.2);
     border-radius: 5px;
 }
-.card1{
+#plane_card1{
     background-color: #edf5f6;
 }
-.card2{
+#plane_card2{
     background-color: #ffeeee;
 }
-.card3{
+#plane_card3{
     background-color: #fff4d6;
 }
 section .section_container .plane_container .donation_planes .card_container{
@@ -226,6 +232,11 @@ section .section_container .activity_log_container .activity_title_text{
     color: #121212;
 
 }
+section .section_container .activity_log_container .description span{
+    font-family: sans-serif;
+    color: #e94a3b;
+}
+
 section .section_container .activity_log_container .activity_log{
     display: flex;
     justify-content: space-between;
@@ -236,12 +247,30 @@ section .section_container .activity_log_container .activity_log{
 section .section_container .activity_log_container .activity_log .activity_items{
     width: 200px;
     height: 280px;
-    background-image: linear-gradient(to right top, #edf5f6, #edf4f9, #eff3fa, #f4f1fa, #faeff6, #fdeef2, #ffeeee, #ffeee9, #ffeee4, #fff0df, #fff1da, #fff4d6);
     border-radius: 20px;
-    box-shadow: 0 10px 35px rgba( 0, 0, 0, 0.2);
+    box-shadow: 0 10px 35px rgba( 0, 0, 0, 0.1);
     cursor: pointer;
 
+}section .section_container .activity_log_container .activity_log .activity_items:hover{
+    box-shadow: 0 10px 35px rgba( 0, 0, 0, 0.2);
+    cursor: pointer;
 }
+#activity_card1{
+    background-color: #f8f1dc;
+}
+#activity_card2{
+    background-color: #e1f8eb;
+}
+#activity_card3{
+    background-color: #fae5e5;
+}
+#activity_card4{
+    background-color: #dff8f8;
+}
+#activity_card5{
+    background-color: #fae7f3;    
+}
+
 section .section_container .activity_log_container .activity_log .activity_items img{
     margin-top: 15px;
     padding: 20px;background-color: #ff4c3c15;
@@ -261,7 +290,7 @@ section .section_container .activity_log_container .activity_log .activity_items
     color: #121212;
 
 }
-section .section_container .activity_log_container .link_btn{
+section .section_container .activity_log_container .h_link{
     color: #FFF;
     text-decoration: none;
     font-size: 20px;
@@ -285,6 +314,7 @@ section .section_container .about_container{
 section .section_container .about_container .more_about{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 section .section_container .about_container .more_about .half_width{
     width: 30vw;
@@ -310,7 +340,7 @@ section .section_container .about_container .more_about img{
     border-radius: 5px;
     box-shadow: 0 10px 25px rgba( 0, 0, 0, 0.2);
 }
-section .section_container .about_container .more_about .link_btn {
+section .section_container .about_container .more_about .h_link {
     color: #FFF;
     text-decoration: none;
     font-size: 20px;
@@ -323,6 +353,9 @@ section .section_container .about_container .more_about .link_btn {
     justify-content: center;
     align-items: center;
     margin: 30px 0;
+}section .section_container .about_container .more_about .h_link:hover{
+    
+    background-color: #e94a3b;
 }
 
 
@@ -366,7 +399,7 @@ section .section_container .contact_section .contact_container .inputs .text_inp
     background-color: transparent;
     box-shadow: inset 0px 0px 25px rgba(255, 77, 45, 0.1);
 }
-section .section_container .contact_container .inputs a{
+section .section_container .contact_container .inputs .h_link{
     color: #FFF;
     text-decoration: none;
     font-size: 20px;
@@ -380,9 +413,11 @@ section .section_container .contact_container .inputs a{
     align-items: center;
     margin: 30px auto;
 
+}section .section_container .contact_container .inputs .h_link:hover{
+    
+    background-color: #e94a3b;
 }
 footer{
-    width: 100vw;
     margin: 0;
     background-color: #121212;
 }
@@ -393,10 +428,11 @@ footer .footer_container{
     padding: 40px 0;
 }
 footer .footer_container .title{
-    width: 400px;
-    font-size: 45px;
-    font-weight: 400;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    font-weight: 500;
     text-align: center;
+    width: 500px;
     margin: 30px auto;
     color: #ff4c3c  ;
 }
@@ -441,6 +477,7 @@ footer .footer_container p a{
     text-decoration: none;
     color: #707070;
     padding-left: 5px;
-}footer .footer_container p a:hover{
+}
+footer .footer_container p a:hover{
     text-decoration: underline;
 }
