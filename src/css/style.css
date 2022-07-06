@@ -29,7 +29,7 @@ header .header_continer .title .title_text{
     line-height: 1.4;
 
 }
-header .header_continer .title .discription{
+header .header_continer .title .description{
     color: #FFF;
     font-size: 18px;
     font-weight: 300;
@@ -72,7 +72,7 @@ section .section_container .donate_container .title_text{
     color: #121212;
 
 }
-section .section_container .donate_container .discription{
+section .section_container .donate_container .description{
     width: 650px;
     margin: 0px auto 40px auto;
     color: #707070;
@@ -156,13 +156,14 @@ section .section_container .plane_container{
 section .section_container .plane_container .title_text{
     font-size: 45px;
     font-weight: 600;
-    margin: 0;
+    margin: 20px;
     color: #121212;
 
 }
-section .section_container .plane_container .discription{
+section .section_container .plane_container .description{
     width: 650px;
-    margin: 0px auto 40px auto;
+    margin: auto;
+    margin-bottom: 80px;
     color: #707070;
 
 }
@@ -204,7 +205,7 @@ section .section_container .plane_container .donation_planes .card_container .ca
     font-weight: 600;
     color: #121212;
 }
-section .section_container .plane_container .donation_planes .card_container .card_discription{
+section .section_container .plane_container .donation_planes .card_container .card_description{
     text-align: justify;
     font-size: 15px;
     color: #707070;
@@ -254,7 +255,8 @@ section .section_container .activity_log_container .activity_log .activity_items
     font-weight: 400;
     margin: 0;
 
-}section .section_container .activity_log_container .activity_log .activity_items .title{
+}
+section .section_container .activity_log_container .activity_log .activity_items .title{
     color: #121212;
 
 }
@@ -320,4 +322,69 @@ section .section_container .about_container .more_about .link_btn {
     justify-content: center;
     align-items: center;
     margin: 30px 0;
+}
+
+section .section_container .contact_section{
+    background-image: linear-gradient(to right top, #edf5f6, #edf4f9, #eff3fa, #f4f1fa, #faeff6, #fdeef2, #ffeeee, #ffeee9, #ffeee4, #fff0df, #fff1da, #fff4d6);
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba( 0, 0, 0, 0.2);
+    width: 100%;
+    margin-top: 100px;
+}
+section .section_container .contact_section .contact_container{
+    width: 1120px;
+    height: auto;
+    text-align: center;
+    margin: 40px auto;
+    padding: 50px 0;
+}
+section .section_container .contact_section .contact_container .contact_title{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+    color: #121212;
+}
+section .section_container .contact_section .contact_container .description{
+    
+    margin: 25px 0;
+    color: #707070;
+}
+
+section .section_container .contact_section .contact_container{
+
+}
+section .section_container .contact_section .contact_container .inputs{
+
+}
+section .section_container .contact_section .contact_container .inputs .text_input{
+
+}
+section .section_container .contact_section .contact_container .inputs .text_input input{
+    width: 30vw;
+    padding: 15px 25px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    color: #ff4c3c;
+    border-bottom: 2px solid #ff4c3c;
+    border-left: 2px solid #ff4c3c;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 25px rgba(255, 77, 45, 0.1);
+}
+section .section_container .contact_container .inputs a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #ff4c3c;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba( 0, 0, 0, 0.2);
+    padding: 15px 25px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+
 }
