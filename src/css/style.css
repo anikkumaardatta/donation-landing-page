@@ -395,7 +395,7 @@ section .section_container .contact_section .contact_container .inputs .text_inp
     border-radius: 5px;
     margin: 20px;
     background-color: transparent;
-    box-shadow: inset 0px 0px 25px rgba(255, 77, 45, 0.1);
+    box-shadow: inset 0px 0px 25px #ff4d2d1a;
 }
 section .section_container .contact_container .inputs .h_link{
     color: #FFF;
