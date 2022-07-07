@@ -392,7 +392,6 @@ section .section_container .contact_section .contact_container .inputs .text_inp
     border: none;
     color: #ff4c3c;
     border-bottom: 2px solid #ff4c3c;
-    border-left: 2px solid #ff4c3c;
     border-radius: 5px;
     margin: 20px;
     background-color: transparent;
