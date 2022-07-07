@@ -187,8 +187,11 @@ section .section_container .plane_container .donation_planes .donate_plane_cards
     align-items: center;
     height: 350px;
     width: 350px;
-    box-shadow: 0 10px 35px rgba( 0, 0, 0, 0.2);
+    box-shadow: 0 10px 35px rgba( 0, 0, 0, 0.1);
     border-radius: 5px;
+}section .section_container .plane_container .donation_planes .donate_plane_cards:hover{
+    box-shadow: 0 10px 35px rgba( 0, 0, 0, 0.2);
+    cursor: pointer;
 }
 #plane_card1{
     background-color: #edf5f6;
@@ -433,6 +436,10 @@ footer .footer_container .title{
     width: 500px;
     margin: 30px auto;
     color: #ff4c3c  ;
+}
+footer .footer_container .description{
+    padding-bottom: 20px;
+    color: #dff8f8;
 }
 footer .footer_container .link_title{
     width: 250px;
