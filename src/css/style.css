@@ -234,6 +234,9 @@ section .section_container .activity_log_container .activity_title_text{
     color: #121212;
 
 }
+section .section_container .activity_log_container .description {
+    margin-bottom: 10px;
+}
 section .section_container .activity_log_container .description span{
     font-family: sans-serif;
     color: #e94a3b;
